@@ -1,0 +1,99 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables and secrets (CRÍTICO - NUNCA COMMITAR)
+.env
+.env.*
+*.env
+.env.local
+.env.production
+.env.development
+.env.test
+.env.staging
+*.key
+*.pem
+*.p12
+*.pfx
+*secret*
+*credential*
+*password*
+secrets/
+credentials/
+
+# Processed files (gerados automaticamente)
+json_processados/
+*.json
+
+# Arquivos que podem conter dados sensíveis
+*.db
+*.sqlite
+*.sqlite3
+*.log
+*.cache
+
+# PDFs processados (manter apenas na pasta documentos_para_processar)
+# Mas não commitar PDFs grandes - adicione exceções específicas se necessário
+# *.pdf
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Relatórios gerados (excluir, mas manter documentação)
+RELATORIO_*.md
+!README.md
+!CONTRIBUTING.md
+!EXEMPLOS.md
+!GIT_COMMANDS.md
+!SECURITY.md
+!LICENSE
